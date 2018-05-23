@@ -1,0 +1,91 @@
+
+
+body {
+    background: url(../images/bglogo.png) no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'Verdana';
+}
+
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+#quiz {
+    margin-left: 33%;
+    background: red;
+    padding: 10px 20px 10px 20px;
+    width: 400px;
+    border-radius: 20px;
+    float: left;
+    /*opacity: 0.9;*/
+
+}
+
+p {
+    color: white;
+}
+
+input {
+    margin-bottom: 20px;
+    display: block;
+}
+
+#textbox {
+    height: 25px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    padding-left: 5px;
+}
+
+
+#button {
+    background: yellowgreen;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+    font-size: 16px;
+    transition-duration: .5s;
+    margin-top: 15px;
+}
+
+
+
+#button:hover {
+    background: white;
+    border: 1px solid green;
+    color: black;
+    cursor: pointer;
+
+}
+
+#after_submit {
+    visibility: hidden;
+    background: #ff5459;
+    padding: 10px 20px 10px 20px;
+    width: 400px;
+    border-radius: 20px;
+    float: left;
+    margin-left: 419px;
+    font-size: 30px;
+
+
+}
+
+#picture {
+    width: 400px;
+    height: 300px;
+}
+
+
+
+#mc {
+    display: inline;
+}
+
+.gifs {
+    width:75%;
+}

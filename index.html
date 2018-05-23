@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Street Fighter Test</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+
+</head>
+
+
+<body>
+    <h1>Street Fighter Sound Test</h1>
+    <p style="text-align: center">Match the audio to the correct GIF</p>
+
+
+    <form id="quiz" name="quiz">
+
+        <!--Question 1 Ryu Hadoken -->
+        <div>
+                <h2> Question 1</h2><p class="questions">
+            <audio controls>
+               <source src="haduken.mp3" type="audio/mp3"> 
+            </audio></p>
+                <img src="images/hadokenryu.gif" class="gifs">
+                <input type="radio" id="mc" name="question1" value="hadokenryu"><br>
+        </div>
+
+        <div>
+            <img src="images/hadokenwrong1.gif" class="gifs">
+            <input type="radio" id="mc" name="question1" value="hadokenwrong1"> <br>
+        </div>
+        
+        <div>
+            <img src="images/hadokenwrong2.gif" class="gifs">
+            <input type="radio" id="mc" name="question1" value="hadokenwrong2"><br>
+        </div>
+        <!-- Question 1 Ryu Hadoken End -->
+        
+        
+        <!-- Question 2 Hurricane Kick -->
+        
+        <div>
+             <h2>Question 2</h2><p class="questions">
+            <audio controls>
+               <source src="hurricanekick.mp3" type="audio/mp3"> 
+            </audio></p>
+            <img src="images/hurricanekickryu.gif" class="gifs"> 
+            <input type="radio" id="mc" name="question2" value="hurricanekickryu"> <br>
+        </div>
+        
+        <div>
+            <img src="images/hurricanekickwrong1.gif" class="gifs">
+            <input type="radio" id="mc" name="question2" value="hurricanekickwrong1"> <br>
+        </div>
+        
+        <div>
+            <img src="images/hurricanekickwrong2.gif" class="gifs">
+            <input type="radio" id="mc" name="question2" value="hurricanekickwrong2"> <br>
+        </div> 
+        <!-- Question 2 Hurricane Kick End -->
+        
+        <!-- Question 3 Yoga Flame -->
+        <div>
+             <h2>Question 3</h2><p class="questions">
+            <audio controls>
+                <source src="yoga.mp3" type="audio/mp3">
+            </audio></p>
+            <img src="images/yogawrong1.gif" class="gifs">
+            <input type="radio" id="mc" name="question3" value="yogawrong1"> <br>
+        </div>
+        
+        <div>
+            <img src="images/yogaflame.gif" class="gifs">
+            <input type="radio" id="mc" name="question3" value="yogaflame"> <br>
+        </div>
+        
+        <div>
+            <img src="images/yogawrong2.gif" class="gifs"> <input type="radio" id="mc" name="question3" value="yogawrong2"> <br>
+        </div>
+        <!-- Question 3 Yoga Flame End -->
+        
+        <!-- Question 4 Raging Demon -->
+        
+        <div>
+         <h2>Question 4</h2><p class="questions">
+            <audio controls>
+                <source src="raging.mp3" type="audio/mp3">
+            </audio>
+            </p>
+            <img src="images/ragingwrong1.gif" class="gifs">
+            <input type="radio" id="mc" name="question4" value="ragingwrong1"> <br>
+        </div> 
+        
+        <div>
+            <img src="images/ragingakuma.gif" class="gifs">
+            <input type="radio" id="mc" name="question4" value="ragingakuma"> <br>
+        </div> 
+        
+        <div>
+            <img src="images/ragingwrong2.gif" class="gifs">
+            <input type="radio" id="mc" name="question4" value="ragingwrong2">  <br>
+        </div>
+        <!-- Question 4 Raging Demon End -->
+
+        <!-- Question 5 Shoryuken-->
+        <div>
+             <h2>Question 5</h2><p class="questions">
+            <audio controls>
+                <source src="shoryuken.mp3" type="audio/mp3">
+            </audio>
+            </p>
+            <img src="images/shoryukenryu.gif" class="gifs">
+            <input type="radio" id="mc" name="question5" value="shoryukenryu">  <br>
+        </div>
+        
+        <div>
+            <img src="images/shoryukenwrong1.gif" class="gifs">    
+            <input type="radio" id="mc" name="question5" value="shoryukenwrong1">  <br>
+        </div>
+        
+        <div>
+        <img src="images/shoryukenwrong2.gif" class="gifs">
+        <input type="radio" id="mc" name="question5" value="shoryukenwrong2"><br>
+        </div>    
+        <input id="button" type="button" value="I'm finished!" onclick="check();">
+        
+        
+
+    </form>
+
+    <div id="after_submit">
+        <p id="number_correct"></p>
+        <p id="message"></p>
+        <img id="picture">
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="app.js"></script>
+
+</html>
+
+</body>
